@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title> Tarea ISW-512 - Demostración de etiquetas HTML </title>
+        <base href="Tarea 1 - Etiquetas"/>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+    </head>
+    <body>
+        <div id="wrapper"> 
+            <h1>Demostración de Etiquetas HTML</h1>
+            <h2>Visualización de las opciones de listas en HTML</h2>
+
+            <time datetime="2024-09-11">11 de septiembre 2024</time> <data value="2024-09-11" type="date"></data>
+
+           <div>
+            <h4>Tabla de Contenido</h4>
+            <hgroup class="contenido-lista">
+                
+                <h5>Listas Ordenadas.</h5>
+                <h5>Listas Desordenadas.</h5>
+                <h5>Lista de Descripción.</h5>
+                <h5>Información Adicional sobre Elementos HTML.</h5>
+                <h5>Algunas etiquetas de texto en HTML.</h5>
+                <h5>Curiosidades.</h5>
+                <h5>Curiosidades sobre los pilares del desarrollo web.</h5>
+                <h5>Algunas sugerencias.</h5>
+            </hgroup>
+           </div>
+
+            <h3>Listas Ordenadas</h3>
+            <h5>Primeras etiquetas para emprezar tu página web</h5>
+            <ol>
+                <li><strong>&lt;!DOCTYPE&gt;</strong>: Declaración del tipo de documento</li>
+                <li><strong>&lt;html&gt;</strong>: Raíz del documento HTML</li>
+                <li><strong>&lt;head&gt;</strong>: Contenedor de metadatos (como título, enlaces a CSS, etc.)</li>
+                <li><strong>&lt;title&gt;</strong>: Título de la página (visible en la pestaña del navegador)</li>
+                <li><strong>&lt;meta&gt;</strong>: Metadatos (información sobre el documento, como el juego de caracteres)</li>
+                <li><strong>&lt;link&gt;</strong>: Enlace a recursos externos (como hojas de estilo)</li>
+                <li><strong>&lt;script&gt;</strong>: Código JavaScript</li>
+                <li><strong>&lt;body&gt;</strong>: Cuerpo del documento (contenido visible)</li>
+            </ol>
+
+            <h3> Listas Desordenadas</h3>
+            <h5>Etiquetas HTML que puedes usar sin un orden específico</h5>
+            <ul>
+                <li><strong>&lt;h1&gt;- &lt;h6&gt;</strong>: Encabezados de diferentes niveles</li>
+                <li><strong>&lt;p&gt;</strong>: Párrafo</li>
+                <li><strong>&lt;a&gt;</strong>: Enlace(anchor)</li>
+                <li><strong>&lt;img&gt;</strong>: Imagen</li>
+                <li><strong>&lt;span&gt;</strong>: Contenedor en linea </li>
+                <li><strong>&lt;header&gt;</strong>: Cabecera de una sección o página</li>
+                <li><strong>&lt;footer&gt;</strong>: Pie de una sección o página</li>
+            </ul>
+            <figure>
+                <img src="Image/EjemploLista.png" alt="EjemploLista" usemap="#image-map" width="350" height="200">
+                <figcaption>Ejemplo Lista Desordenada</figcaption>
+            </figure>
+
+            <map name="image-map">
+                <area target="_blank" alt="Abrir Imagen" title="Abrir Imagen" href="Image/EjemploLista.png" coords="42,37,294,129" shape="rect">
+            </map>
+
+            <h3>Lista de Descripción</h3>
+            <h5>Descripción breve de algunas etiquetas HTML comunes</h5>
+            <dl>
+                <dt>&lt;html&gt;</dt>
+                <dd>Define la estructura principal de un documento HTML. <br> Es el elemento raíz de la página.</dd>
+                <dt>&lt;head&gt;</dt>
+                <dd>Contiene información meta sobre el documento, <br> como el título y enlaces a archivos CSS o JavaScript.</dd>
+                <dt>&lt;body&gt;</dt>
+                <dd>Define el contenido visible del documento, como texto, imágenes, enlaces, etc.</dd>
+                <dt>&lt;h1&gt; - &lt;h6&gt;</dt>
+                <dd>Define encabezados con diferentes niveles de importancia, <br> de &lt;h1&gt; (más importante) a &lt;h6&gt; (menos importante).</dd>
+                <dt>&lt;p&gt;</dt>
+                <dd>Representa un párrafo de texto.</dd>
+                <dt>&lt;a&gt;</dt>
+                <dd>Crea un enlace a otra página web o recurso externo.</dd>
+                <dt>&lt;img&gt;</dt>
+                <dd>Incorpora una imagen en la página web.</dd>
+                <dt>&lt;ul&gt;</dt>
+                <dd>Define una lista desordenada, donde los elementos se presentan con viñetas.</dd>
+                <dt>&lt;ol&gt;</dt>
+                <dd>Define una lista ordenada, donde los elementos se presentan con números o letras.</dd>
+                <dt>&lt;li&gt;</dt>
+                <dd>Define un elemento dentro de una lista (ya sea desordenada o ordenada).</dd>
+                <dt>&lt;div&gt;</dt>
+                <dd>Elemento de bloque que agrupa contenido y se usa principalmente para dar estructura o aplicar estilos.</dd>
+                <dt>&lt;span&gt;</dt>
+                <dd>Elemento en línea que sirve para aplicar estilos o manipular texto o pequeños bloques de contenido.</dd>
+                <dt>&lt;form&gt;</dt>
+                <dd>Define un formulario para capturar datos del usuario.</dd>
+                <dt>&lt;input&gt;</dt>
+                <dd>Crea un campo de entrada para que el usuario introduzca datos.</dd>
+                <dt>&lt;button&gt;</dt>
+                <dd>Crea un botón interactivo en la página web.</dd>
+            </dl>
+            
+            <h3>Información Adicional sobre Elementos HTML</h3>
+            <details>
+                <summary>Haz clic para explorar mas sobre los elementos HTML</summary>
+                <p><strong>&lt;script&gt;</strong>: Inserta un segmento de codigo JavaScript en tu documento HTML. <br>Esto permite añadir funcionalidades interactivas a tu sitio web.</p>
+                <p><strong>&lt;form&gt;</strong>: Reúne diversos controles de entrada para enviar datos a un servidor. <br>Los controles pueden incluir campos de texto, botones de selección, casillas de verificación y más.</p>
+                <p><strong>&lt;button&gt;</strong>: Define un bóton que los usuarios pueden hacer clic para ejecutat una acción específica, <br> como enviar un formulario o invocar una función JavaScript.</p>
+
+                <video width="640" height="360" controls>
+                    <source src="Video/VideoWeb.mp4" type="video/mp4">
+                    <track src="Video/QUÉ ES UN SITIO WEB EXPLICACIÓN SIMPLE [Spanish (auto-generated)] [DownloadYoutubeSubtitles.com].vtt" kind="subtitles" srclang="es" label="Español">
+                </video>
+
+                
+            </details>
+            
+            <h3>Algunas etiquetas de texto en HTML</h3>
+            <p><strong>&lt;pre&gt;</strong>:  Define un texto preformateado de un documento HTML, que conserva los espacios y <br>los saltos de línea tal como se escriben en el código fuente.</p>
+            <h5>Ejemplo de uso</h5>
+            <pre>
+                Este texto se mostrará
+                con los espacios y saltos
+                de línea tal como se
+                escriben en el código
+                fuente.
+            </pre>
+            
+            <p><strong>&lt;blockquote&gt;</strong>:Define una cita en bloque de un documento HTML, que puede contener un <br> texto citado de otra fuente, con una sangría respecto al texto normal.</p>
+            <h5>Ejemplo de uso</h5>
+                <blockquote>
+                    <p><mark>"HTML y JavaScript son como el papel y el lápiz del mundo digital."</mark></p>
+                    <footer><em>Douglas Crockford</em></footer>
+                </blockquote>
+            
+            <p><strong>&lt;q&gt;</strong>: Es una etiqueta de formato de texto que se utiliza para indicar una cita corta o <br> un fragmento de texto citado dentro de un párrafo</p>
+            <h5>Ejemplo de uso</h5>
+            <p>Como dijo <i>Tim Berners-Lee</i>, <q>El poder de la web está en su universalidad. El acceso para todos, independientemente de la discapacidad, es un aspecto esencial.</q></p>
+            
+            <p><strong>&lt;cite&gt;</strong>: Define el título de una obra citada de un documento HTML, que puede ser un libro, un artículo, un sitio web o cualquier otra fuente.</p>
+            <h5>Ejemplo de uso</h5>
+            <p>Según la documentación en <cite>Mozilla Developer Network</cite> HTML es el elemento básico de la Web. Define el significado y la estructura del contenido web. Para más información sobre HTML, puedes consultar el recurso <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML: HyperText Markup Language</a></p>
+            
+            <p><strong>&lt;abbr&gt;</strong>:Define una abreviatura o un acrónimo de un documento HTML, que puede mostrar el significado completo al pasar el cursor sobre el texto.</p>
+            <h5>Ejemplo de uso</h5>
+            <p>La <abbr title="Hypertext Markup Language">HTML</abbr> es un lenguaje de marcado utilizado para crear páginas web. <br>El <abbr title="Cascading Style Sheets">CSS</abbr> es utilizado para dar estilo a las páginas web y hacerlas más atractivas. <br>El <abbr title="JavaScript">JS</abbr> es utilizado para añadir interactividad a las páginas web.</p>
+
+            <p><strong>&lt;svg&gt;</strong>: Se utiliza para crear gráficos vectoriales escalables dentro de una página web.</p>
+            <h5>Ejemplo de uso</h5>
+            <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="40" stroke="violet" stroke-width="3" fill="purple"/>
+            </svg>
+
+            <p><strong>&lt;Canvas&gt;</strong>: Define un lienzo de un documento HTML, que puede contener gráficos dibujados 
+                con JavaScript o con la API de WebGL.</p>
+            <h5>Ejemplo de uso</h5>
+            <canvas id="myCanvas" width="400" height="200"></canvas>
+            
+            <script>
+                // Obtener el contexto del canvas
+                var canvas = document.getElementById('myCanvas');
+                var ctx = canvas.getContext('2d');
+                
+                // Establecer el color de relleno
+                ctx.fillStyle = 'red';
+                
+                // Dibujar un rectángulo relleno
+                ctx.fillRect(50, 50, 200, 100);
+            </script>
+
+
+            <h3><ins>Curiosidades</ins></h3>
+            <p>El <dfn title="Organización Internacional de Normalización">ISO</dfn> es una organización internacional que establece estándares para varios campos, incluyendo la tecnología y los negocios.</p>
+            <p>Para muestrar el menú de símbolos (funciones, variables) del archivo actual. Presione <kbd><b>Ctrl</b></kbd> + <kbd><b>Shift</b></kbd>+ <kbd><b>O</b></kbd>.</p>
+            <p>Para guardar archivo en la mayoría de los programas. Presione <kbd><b>Ctrl</b></kbd> + <kbd><b>s</b></kbd>.</p>
+            <p><abbr title="Cascading Style Sheets"> <i>CSS</i> </abbr> es fundamental para el diseño web, permitiendo a los desarrolladores controlar la apariencia de las páginas web. </p>
+            <pre><code>/* Esta regla cambiará el color del texto de todos los elementos &lt;p&gt; a rojo */
+                p {
+                    color: red;
+                }
+            </code></pre>
+            <p>En programación, los <span style="color: purple;">superíndices y subíndices</span> ayudan a representar conceptos matemáticos o técnicos, <br> como la complejidad algorítmica en <strong>O(n<sup>2</sup>)</strong> o la estructura de una clave primaria en bases de datos, <br> como <strong>user_id<sub>1</sub>_profile<sub>2</sub></strong></p>
+            
+            <h6><del>Contenido menor</del></h6>
+        </div>
+        <div>
+            <h3>Curiosidades sobre los pilares del desarrollo web</h3>
+            <p>HTML: A menudo se asocia con la estructura y el contenido básico de las páginas web. Su logo refleja su papel fundamental en el desarrollo web.</p>
+            <picture></picture>
+                <source srcset="https://img.icons8.com/?size=100&id=v8RpPQUwv0N8&format=png&color=000000" media="(min-width: 800px)">
+                <img src="https://img.icons8.com/?size=100&id=v8RpPQUwv0N8&format=png&color=000000" alt="Ícono">
+            </picture>
+            
+            <p>CSS: Se encarga del diseño y la presentación visual de las páginas web. Su logo destaca su rol en el diseño y estilo visual.</p>
+            <picture>
+                <source srcset="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" media="(min-width: 800px)">
+                <img src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" alt="Ícono">
+            </picture>
+            <p>JavaScript: Es un lenguaje de programación que agrega interactividad y funcionalidades avanzadas a las páginas web. Su logo enfatiza su importancia y popularidad en el desarrollo web moderno.</p>
+            <picture>
+                <source srcset="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" media="(min-width: 200px)">
+                <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="Ícono">
+            </picture>
+
+            <h3>Algunas sugerencias</h3>
+            <h5>PodCast</h5>
+            <p>Web Reactiva es un podcast sobre desarrollo y programación web</p>
+            <audio controls>
+                <source src="https://api.spreaker.com/download/episode/61228791/web_reactiva_294.mp3" type="audio/mpeg">
+            </audio>
+            <p>Para más información sobre el podcast<a href="https://es.player.fm/series/web-reactiva"> Web Reactiva. </a></p>
+
+            <h5>Video</h5>
+            <p>Curso de HTML y CSS desde CERO (Completo)</p>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/ELSm-G201Ls" title="Curso de HTML y CSS desde CERO (Completo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+        <div>
+            <img src="Image/Página 1.jpeg" alt="" style="width: 150px; height: auto;">
+            <address>
+                <b>Correo:</b> kristelmena03@gmail.com<br>
+                <b>Teléfono:</b> +506 8629 3070<br>
+                <b>Ubicación:</b> San José, Costa Rica
+            </address>
+        </div>
+        <footer>
+            <small>© 2024 Todos los derechos reservados. Esta es una demostración de HTML. Hecho por Kristel Valeria Mena Jiménez</small>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+.figure-container{
+    width: 450px; /* Ancho fijo de 300 píxeles */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido-lista h5 {
+    margin-bottom: 10px;
+}
+
+.contenido-lista {
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
